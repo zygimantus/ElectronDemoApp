@@ -1,0 +1,20 @@
+{
+  "name": "electrondemoapp",
+  "description": "A demo Electron application",
+  "main": "index.js",
+  "authors": [
+    "Zygimantus"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "Electron"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
