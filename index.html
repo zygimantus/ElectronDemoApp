@@ -2,14 +2,25 @@
 <html>
   <head>
     <meta charset="UTF-8">
+
     <title>Hello World!</title>
+
+    <link rel="stylesheet" href="./bower_components/bootstrap/dist/css/bootstrap.css">
+
   </head>
+
   <body>
-    <h1>Hello World!</h1>
-    <!-- All of the Node.js APIs are available in this renderer process. -->
-    We are using Node.js <script>document.write(process.versions.node)</script>,
-    Chromium <script>document.write(process.versions.chrome)</script>,
-    and Electron <script>document.write(process.versions.electron)</script>.
+    <div id="container" class="container-fluid">
+
+      <!-- Input row -->
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
+          <h3 class="hash-heading">Input</h3>
+          <textarea rows="2" id="text-input" class="form-control text-input" placeholder="Enter text and see it hashed..."></textarea>
+        </div>
+      </div>
+
+    </div>
   </body>
 
   <script>
