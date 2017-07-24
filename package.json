@@ -11,5 +11,8 @@
     "Electron"
   ],
   "author": "Zygimantus",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "electron-debug": "^1.3.0"
+  }
 }
